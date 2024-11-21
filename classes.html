@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Evan's Models and Modeling</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+* { box-sizing: border-box;
+    margin: 0;
+}
+
+body {font-family: Verdana, Arial, sans-serif;
+}
+ 
+#wrapper { background-color:  #e7bfbf; 
+         
+}
+
+header { color: #440101; 
+        background-color: #d46c6c;
+		background-image: url(Images/prr.jpg);
+	    background-repeat: no-repeat;		
+		background-size: auto 100%;
+        padding: .5em 0 .5em 5.5em;
+}
+main {   background-color: #FFFFFF;
+         color: #000000;
+	     padding: 1em; 
+
+}
+aside { text-align: center; }
+footer {  background-color: #869DC7;
+         font-size:70%;
+         text-align: center;
+         padding: 0.5em 0;
+}
+img { padding: 1em; }
+h2 { color: #869DC7; }
+
+/* Styles to configure navigation links as horizontal areas */
+nav ul { list-style-type: none;
+         padding-left: 0; 
+		 border-top: 1px solid #EEEEEE;
+}
+nav li { border-bottom: 1px solid #EEEEEE;  
+         text-align: center;
+		 padding-top: .5em;
+		 padding-bottom: .5em;
+}
+nav a { text-decoration: none;
+		font-weight: bold;
+}
+nav a:link { color: #00005D; }
+nav a:hover { color: #FF0000; }
+/* make the current page's link look different */
+nav #page { font-weight: bold;
+            color: #FEFEFE; }
+
+ 
+
+
+
+/* Force older versions of Internet Explorer to display these HTML5 elements with block display. */
+header, nav, main, footer, aside, figure { display: block; }
+
+/* Medium Display */
+@media (min-width: 600px) {
+ nav li { display: inline-block;
+          width: 7em;
+          padding: 0.5em;
+		  border: none; 
+         }
+ nav ul { text-align: center; }
+ main { float: left;
+        width: 55%; }
+  aside { margin-left: 55%; }
+ footer { clear: both; }
+ }
+ 
+/* Large Display */
+@media (min-width: 1024px) {
+  nav li { display: block; }
+  nav { float: left; }
+  #wrapper { width: 80%;
+		     margin: auto;
+		     max-width: 1200px;
+  }
+  body { background-color: #ac2b2b; }
+} 
+	 
+
+</style> 
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Evan's Models and Modeling</h1>
+  </header>
+    	<nav>
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+	    <li><a href="classes.html">Classes</a></li>
+            <li><a href="project_3.html">PRR B60 Paggage Car</a></li>
+            <li><a href="project_1.html">WW2 Troop Sleeper Caboose</a></li>
+            <li><a href="project_2.html">PRR T1</a></li>
+        </ul>
+    </nav>    
+  <main>
+ 	<h2>I'm a student at NKU (Northern Kentucky University).</h2>
+    <p>I've been a student for almost 2 years. I am studying Computer Information Technology or CIT for short.</p>
+	<style>
+.class-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: #EEEEEE;
+}
+
+.class-table th, .class-table td {
+    padding: 5px;
+    border: 1px solid black;
+}
+</style>
+
+<div style="text-align: center;">
+    <strong><em>Classes</em></strong>
+    <table class="class-table">
+        <thead>
+            <tr>
+                <th colspan="2" scope="colgroup">Semester</th>
+                <th scope="col">Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">Fall 2024</td>
+                <td>MAT 102</td>
+            </tr>
+            <tr>
+                <td>MAT 103</td>
+            </tr>
+            <tr>
+                <td>INF 100</td>
+            </tr>
+            <tr>
+                <td>EMB 105</td>
+            </tr>
+            <tr>
+                <td>ENG 101</td>
+            </tr>
+            <tr>
+                <td>CMST 101</td>
+            </tr>
+            <tr>
+                <td rowspan="6">Spring 2023</td>
+                <td>CIT 171</td>
+            </tr>
+            <tr>
+                <td>ENG 102</td>
+            </tr>
+            <tr>
+                <td>INF 120</td>
+            </tr>
+            <tr>
+                <td>INF 128</td>
+            </tr>
+            <tr>
+                <td>STA 205</td>
+            </tr>
+            <tr>
+                <td>INF 100</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Fall 2024</td>
+                <td>GLY 110</td>
+            </tr>
+            <tr>
+                <td>INF 128</td>
+            </tr>
+            <tr>
+                <td>INF 286</td>
+            </tr>
+            <tr>
+                <td>STA 205</td>
+            </tr>
+        </tbody>
+    </table>
+  </main>
+  <aside>
+    <figure>
+    <img src="Images/griffin.jpg" width="280.5" height="186" alt="Griffin Hall">
+    </figure>
+  </aside>
+  <footer>
+	Copyright &copy; 2024
+  </footer>
+</div>
+</body>
+</html>
+
+
